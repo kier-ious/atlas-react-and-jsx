@@ -1,14 +1,13 @@
 import React from 'react';
-import Greeting from './components/Greeting';
-import SocialLinks from './components/SocialLinks';
-import './App.css';
+import Header from './components/Header'
+import Section from './components/Section'
 
 
 function App() {
 return (
   <div className="app-container">
-    <Greeting className="greeting"/>
-    <SocialLinks className="social-links"/>
+    <Header className="header" />
+    <Section className="section" />
   </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-// import './SocialLinks.css';
 import linkedInLogo from '../assets/linkedin.svg';
 import githubLogo from '../assets/github.svg';
 
