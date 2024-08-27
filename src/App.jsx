@@ -4,6 +4,7 @@ import Section from './components/Section';
 import HelpfulResource from './components/HelpfulResource';
 import AboutMe from './components/AboutMe';
 import OpenLink from './components/OpenLink';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -43,7 +44,7 @@ return (
       />
       <HelpfulResource
         link="https://react.dev/"
-        label="React Offical Documentation"
+        label="React Official Documentation"
       />
       <HelpfulResource
         link="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started"
@@ -52,6 +53,8 @@ return (
     </Section>
 
     <AboutMe />
+
+    <Footer />
   </div>
   );
 }

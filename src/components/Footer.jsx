@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './assets/links.json';
+import links from '../assets/links.json';
 
 
 const Footer = () => {
@@ -9,10 +9,17 @@ const Footer = () => {
   return (
     <footer>
       <ul>
-        
+        {links.map((item, index) => (
+          <li key={index}>
+            <a href={item.link}>
+              {item.label}
+            </a>
+          </li>
+        ))}
       </ul>
+      <p>© {currentYear} Atlas School</p>
     </footer>
-  )
+  );
 }
 
 export default Footer;

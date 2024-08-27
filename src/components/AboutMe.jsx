@@ -4,15 +4,6 @@ import OpenLink from './OpenLink';
 
 
 function AboutMe({link}) {
-  // const linkContainerStyle = {
-  //   display: 'flex',
-  //   flexWrap: 'wrap',
-  //   flexDirection: 'row',
-  //   alignItems: 'center',
-  //   marginTop: '20px',
-  //   marginLeft: '8px',
-  // };
-
   return (
     <div className="about-me">
       <img src={AboutMePic} alt="About Me" />
@@ -29,12 +20,6 @@ function AboutMe({link}) {
           my dog and partner. I love to draw hyper-realism and read fiction. I also a HUGE fan of
           the X-Files.
         </p>
-      {/* <p>
-        You can learn more about me on my personal website!
-        <span style={linkContainerStyle}>
-          <OpenLink link="https://kier-mcalister.netlify.app/" />
-        </span>
-      </p> */}
     </div>
   );
 }

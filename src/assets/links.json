@@ -10,5 +10,9 @@
   {
     "label": "Netlify",
     "link": "https://www.netlify.com"
+  },
+  {
+    "label": "My Personal Website",
+    "link": "https://kier-mcalister.netlify.app/"
   }
 ]
