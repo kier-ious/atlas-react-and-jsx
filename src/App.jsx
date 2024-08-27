@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './components/Header';
 import Section from './components/Section';
 import HelpfulResource from './components/HelpfulResource';
+import AboutMe from './components/AboutMe';
+import OpenLink from './components/OpenLink';
 
 
 function App() {
@@ -48,6 +50,8 @@ return (
         label="React MDN Web Docs"
       />
     </Section>
+
+    <AboutMe />
   </div>
   );
 }
