@@ -8,8 +8,8 @@ function HelpfulResource({ link, label }) {
   return (
     <div className="helpful-resource">
       <p>{label}</p>
-      <OpenLink link={link} />
-      <CopyLink link={link} />
+      <OpenLink link={link} target="_blank" rel="noopener noreferrer" />
+      <CopyLink link={link} target="_blank" rel="noopener noreferrer" />
     </div>
   );
 }
